@@ -20,7 +20,7 @@ pnpm dev
 
 ## Deploy on Vercel
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [https://daily-notes-app.vercel.app/) with your browser to see the result.
 
 ##  Screenshots
 
