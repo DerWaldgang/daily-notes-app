@@ -1,0 +1,10 @@
+.DailyPost {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    min-width: 8rem;
+
+    >button {
+        width: 100%;
+    }
+}

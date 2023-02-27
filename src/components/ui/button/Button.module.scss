@@ -1,0 +1,17 @@
+.Button {
+    padding: 0.4rem 0.4rem;
+    font-size: 14px;
+    border-radius: var(--border-radius);
+    background-color: var(--color-primary);
+    color: var(--color-secondary-inverted);
+    border: 1px solid  var(--color-secondary-inverted);
+    transition: color 100ms ease;
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--color-secondary-inverted);
+        color: var(--color-primary);
+       
+    }
+}
+

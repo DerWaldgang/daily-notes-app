@@ -1,0 +1,31 @@
+.Modal {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+   transition: visibility 300ms linear,opacity 300ms linear;
+
+    background: rgba(0,0,0,0.5);
+
+    .content {
+        padding: 1rem;
+        background-color: white;
+        border-radius: var(--border-radius);
+        min-width: 250px;
+    }
+
+   &.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    opacity:1;
+    }
+
+}
+
+
+

@@ -1,0 +1,43 @@
+.Navbar {
+    background: var(--background-primary);
+    height: var(--nav-height);
+    color: var(--color-primary);
+
+
+    .container {
+        height: 100%;
+        padding: 1rem;
+        >h1 {
+            text-align: center;
+            font-size: var(--font-size-xl);
+        }
+
+        .links {
+            width: 60%;
+            height: 50%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style-type:none;
+            .link {
+                
+                > a {
+                    color: var(--color-primary);
+                    opacity: 0.9;
+                    text-decoration: underline var(--background-primary); ;
+                    padding: 0.3rem;
+                    cursor: pointer;
+                    font-size: var(--font-size-l);
+
+                    &:hover {
+                        text-decoration: underline var(--color-primary);
+                        opacity: 1;
+                    }
+                  
+                }
+
+            }
+        }
+    }
+}

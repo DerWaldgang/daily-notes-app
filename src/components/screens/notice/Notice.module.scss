@@ -1,0 +1,30 @@
+.Notice {
+    position: relative;
+    height: calc(100vh - var(--nav-height));
+    > div {
+        > button {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, 0);
+            top: -2.3rem;
+            min-width: 18rem;
+            height: 2.5rem;
+        }
+    }
+    .noticeInfo {
+        margin-top: 5rem;
+        text-align: center;
+
+        .title {
+            color: var(--color-primary);
+            border-bottom: 2px solid;
+            padding: 1.4rem;
+            margin-bottom: 1rem;
+            word-break: break-all;
+            text-overflow: ellipsis;
+        }
+ 
+    }
+
+
+}

@@ -1,0 +1,23 @@
+.Daily {
+    height: calc(100vh - var(--nav-height));
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+
+    .empty {
+        font-size: var(--font-size-xl);
+        text-transform: uppercase;
+        color: var(--color-primary);
+        pointer-events: none;
+    }
+
+    .notFound {
+        font-size: var(--font-size-xl);
+        text-transform: uppercase;
+        color: var(--color-primary);
+        pointer-events: none;
+    }
+}
